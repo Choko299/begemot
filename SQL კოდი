@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS Laptops;
+
+CREATE TABLE Laptops (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Brand NVARCHAR(100),
+    Model NVARCHAR(100),
+    CPU NVARCHAR(100),
+    RAM INT,
+    Storage INT,
+    Price DECIMAL(10,2)
+);
